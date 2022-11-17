@@ -1,0 +1,16 @@
+{
+  "description": "My Test Rule",
+  "rules": {
+    "triggerType": "ON_CREATE",
+    "condition": "documentType=='Invoice'",
+    "actions": [
+      {
+        "dataUpdate": {
+          "entries": {
+            "notes": "Fred Flintstone"
+          }
+        }
+      }
+    ]
+  }
+}

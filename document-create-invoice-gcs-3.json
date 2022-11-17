@@ -1,0 +1,49 @@
+{
+  "document": {
+    "name": "",
+    "displayName": "Invoice GCS 3",
+    "title": "My Invoice 3",
+    "documentSchemaName": "projects/[PROJECT_NUMBER]/locations/us/documentSchemas/[SCHEMA_ID]",
+    "rawDocumentFileType": "RAW_DOCUMENT_FILE_TYPE_PDF",
+    "rawDocumentPath": "gs://[PROJECT_NUMBER]-data/SampleInvoice3.pdf",
+    "textExtractionDisabled": true,
+    "properties": [
+      {
+        "name": "payee",
+        "textValues": {"values": ["Unbelievable Designs"]}
+      },
+      {
+        "name": "payer",
+        "textValues": {"values": ["Mary Johnson"]}
+      },
+      {
+        "name": "amount",
+        "floatValues": {"values": [2529.45]}
+      },
+      {
+        "name": "id",
+        "textValues": {"values": ["12-345678"]}
+      },
+      {
+        "name": "date",
+        "dateTimeValues": {
+          "values": [
+            {
+              "year": 2022,
+              "month": 12,
+              "day": 12,
+              "utcOffset": "0s"
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "requestMetadata": {
+    "user_info": {
+      "id": "user:[USER_NAME]",
+      "group_ids": []
+    }
+  }
+}

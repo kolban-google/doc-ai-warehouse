@@ -1,0 +1,16 @@
+{
+  "documentQuery": {
+    "propertyFilter": [
+      {
+        "documentSchemaName": "projects/[PROJECT_NUMBER]/locations/us/documentSchemas/[SCHEMA_ID]",
+        "condition": "id=\"12-345678\""
+      }
+    ]
+  },
+  "requestMetadata": {
+    "user_info": {
+      "id": "user:[USER_NAME]",
+      "group_ids": []
+    }
+  }
+}

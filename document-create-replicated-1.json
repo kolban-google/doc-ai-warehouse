@@ -1,0 +1,21 @@
+{
+  "document": {
+    "displayName": "Replicated1",
+    "title": "Replicated1",
+    "documentSchemaName": "projects/917489383266/locations/us/documentSchemas/12j6c2kfkmki8",
+    "rawDocumentFileType": "RAW_DOCUMENT_FILE_TYPE_TEXT",
+    "inlineRawDocument": "SGVsbG8=",
+    "properties": [
+      {
+        "name": "property1",
+        "textValues": {"values": ["Value1", "Value2", "Value3"]}
+      }
+    ]
+  },
+  "requestMetadata": {
+    "user_info": {
+      "id": "user:kolban@kolban.altostrat.com",
+      "group_ids": []
+    }
+  }
+}

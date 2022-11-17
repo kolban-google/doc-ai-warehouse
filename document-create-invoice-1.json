@@ -1,0 +1,29 @@
+{
+  "document": {
+    "displayName": "Invoice 1",
+    "title": "My Title",
+    "documentSchemaName": "projects/764337371079/locations/us/documentSchemas/5skc7rnfk2tb8",
+    "rawDocumentFileType": "RAW_DOCUMENT_FILE_TYPE_TEXT",
+    "inlineRawDocument": "SGVsbG8=",
+    "properties": [
+      {
+        "name": "payee",
+        "textValues": {"values": ["Bob Smith"]}
+      },
+      {
+        "name": "payer",
+        "textValues": {"values": ["Mick Nulty"]}
+      },
+      {
+        "name": "amount",
+        "floatValues": {"values": [123.45]}
+      }
+    ]
+  },
+  "requestMetadata": {
+    "user_info": {
+      "id": "user:[USER_NAME]",
+      "group_ids": []
+    }
+  }
+}

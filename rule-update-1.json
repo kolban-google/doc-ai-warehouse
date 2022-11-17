@@ -1,0 +1,18 @@
+{
+  "ruleSet": {
+    "description": "My Test Rule",
+    "rules": {
+      "triggerType": "ON_CREATE",
+      "condition": "documentType=='Invoice Schema'",
+      "actions": [
+        {
+          "dataUpdate": {
+            "entries": {
+              "payee": "Fred Flintstone"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

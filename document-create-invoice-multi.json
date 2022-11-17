@@ -1,0 +1,34 @@
+{
+  "document": {
+    "displayName": "Multi1",
+    "title": "My Title",
+    "documentSchemaName": "projects/221249563454/locations/us/documentSchemas/640d1as2c55ig",
+    "rawDocumentFileType": "RAW_DOCUMENT_FILE_TYPE_TEXT",
+    "inlineRawDocument": "SGVsbG8=",
+    "properties": [
+      {
+        "name": "state",
+        "textValues": {"values": ["Texas"]}
+      },
+      {
+        "name": "company",
+        "propertyValues": {"properties": [
+          {
+            "name": "city",
+            "textValues": {"values": ["Texas"]}
+          },
+          {
+            "name": "name",
+            "textValues": {"values": ["Jones"]}
+          }
+        ]      }
+      }
+    ]
+  },
+  "requestMetadata": {
+    "user_info": {
+      "id": "user:kolban@kolban.altostrat.com",
+      "group_ids": []
+    }
+  }
+}

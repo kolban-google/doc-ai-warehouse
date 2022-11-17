@@ -1,0 +1,13 @@
+{
+    "displayName": "ReplicationSchema",
+    "propertyDefinitions": [
+        {
+            "name": "property1",
+            "displayName": "Property1",
+            "isSearchable": true,
+            "isRepeatable": true,
+            "isMetadata": true,
+            "textTypeOptions": {}
+        }
+    ]
+}

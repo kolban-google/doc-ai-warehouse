@@ -1,0 +1,50 @@
+{
+  "cloudAiDocumentOption": {
+    "enableEntitiesConversions": true
+  },
+  "document": {
+    "displayName": "Invoice 1",
+    "title": "My Title",
+    "documentSchemaName": "projects/[PROJECT_ID]/locations/us/documentSchemas/[SCHEMA_ID]",
+    "rawDocumentFileType": "RAW_DOCUMENT_FILE_TYPE_PDF",
+    "rawDocumentPath": "gs://[PROJECT_ID]-data/SampleInvoice1.pdf",
+    "textExtractionDisabled": true,
+    "properties": [
+      {
+        "name": "payee",
+        "textValues": {"values": ["Bob Smith"]}
+      },
+      {
+        "name": "payer",
+        "textValues": {"values": ["Mick Nulty"]}
+      },
+      {
+        "name": "amount",
+        "floatValues": {"values": [123.45]}
+      },
+      {
+        "name": "id",
+        "textValues": {"values": ["12-545678"]}
+      },
+      {
+        "name": "date",
+        "dateTimeValues": {
+          "values": [
+            {
+              "year": 2022,
+              "month": 12,
+              "day": 12,
+              "utcOffset": "0s"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "requestMetadata": {
+    "user_info": {
+      "id": "user:[USER_NAME]",
+      "group_ids": []
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+    "$id": "https://example.com/person.schema.json",
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "DocumentSchema",
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string"
+        },
+        "displayName": {
+            "type": "string"
+        },
+        "propertyDefinitions": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "displayName": {
+                    "type": "string"
+                },
+                "isRepeatable": {
+                    "type": "boolean"
+                },
+                "isFilterable": {
+                    "type": "boolean"
+                },
+                "isSearchable": {
+                    "type": "boolean"
+                },
+                "isMetadata": {
+                    "type": "boolean"
+                },
+                "isRequired": {
+                    "type": "boolean",
+                },
+                "textTypeOptions": {
+                    "type": "object",
+                    "properties": {
+                        
+                    }
+                }
+            }
+        },
+        "documentIsFolder": {
+            "type": "boolean",
+        },
+        "updateTime": {
+            "type": "string"
+        },
+        "createTime": {
+            "type": "string"
+        },
+        "description": {
+            "type": "string"
+        }
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "display_name": "Invoice",
+    "property_definitions": [
+        {
+            "name": "payee",
+            "display_name": "Payee",
+            "is_filterable": true,
+            "is_searchable": true,
+            "is_metadata": true,
+            "is_required": true,
+            "text_type_options": {}
+        },
+        {
+            "name": "payer",
+            "display_name": "Payer",
+            "is_filterable": true,
+            "is_required": true,
+            "is_metadata": true,
+            "text_type_options": {}
+        },
+        {
+            "name": "amount",
+            "display_name": "Amount",
+            "is_filterable": true,
+            "is_metadata": true,
+            "float_type_options": {}
+        },
+        {
+            "name": "id",
+            "display_name": "Invoice ID",
+            "is_filterable": true,
+            "is_metadata": true,
+            "text_type_options": {}
+        },
+        {
+            "name": "date",
+            "display_name": "Date",
+            "is_filterable": true,
+            "is_metadata": true,
+            "date_time_type_options": {}
+        },
+        {
+            "name": "notes",
+            "display_name": "Notes",
+            "is_filterable": true,
+            "is_metadata": true,
+            "text_type_options": {}
+        }
+    ]
+}

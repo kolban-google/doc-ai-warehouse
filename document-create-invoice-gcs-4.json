@@ -1,0 +1,49 @@
+{
+  "document": {
+    "name": "",
+    "displayName": "Invoice GCS 4",
+    "title": "My Invoice 4",
+    "documentSchemaName": "projects/[PROJECT_NUMBER]/locations/us/documentSchemas/[SCHEMA_ID]",
+    "rawDocumentFileType": "RAW_DOCUMENT_FILE_TYPE_PDF",
+    "rawDocumentPath": "gs://[PROJECT_NUMBER]-data/SampleInvoice4.pdf",
+    "textExtractionDisabled": true,
+    "properties": [
+      {
+        "name": "payee",
+        "textValues": {"values": ["Consultant"]}
+      },
+      {
+        "name": "payer",
+        "textValues": {"values": ["Mary Jane Coleman"]}
+      },
+      {
+        "name": "amount",
+        "floatValues": {"values": [266.09]}
+      },
+      {
+        "name": "id",
+        "textValues": {"values": ["12-445678"]}
+      },
+      {
+        "name": "date",
+        "dateTimeValues": {
+          "values": [
+            {
+              "year": 2022,
+              "month": 12,
+              "day": 12,
+              "utcOffset": "0s"
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "requestMetadata": {
+    "user_info": {
+      "id": "user:[USER_NAME]",
+      "group_ids": []
+    }
+  }
+}

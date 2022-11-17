@@ -1,0 +1,11 @@
+{
+  "documentQuery": {
+    "query": "12-345678"
+  },
+  "requestMetadata": {
+    "user_info": {
+      "id": "user:[USER_NAME]",
+      "group_ids": []
+    }
+  }
+}

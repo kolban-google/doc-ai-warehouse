@@ -1,0 +1,15 @@
+{
+    "document": {
+        "displayName": "disp1",
+        "referenceId": "X",
+        "title": "T",
+        "documentSchemaName": "projects/764337371079/locations/us/documentSchemas/5151npq6n9g2o",
+        "inlineRawDocument": "SGVsbG8="
+    },
+    "requestMetadata": {
+        "user_info": {
+            "id": "user:[USER_NAME]",
+            "group_ids": []
+        }
+    }
+}
